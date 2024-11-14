@@ -1,0 +1,168 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /*CSS for books listing page*/
+.books-universal-pagination ul {margin: 0; padding: 0;}
+.books-universal-pagination ul li {display: inline; margin: 3px; padding: 4px 8px; background: #FFB6C1; color: black; }
+.books-universal-pagination ul li.active:hover {cursor: pointer; background: #1E8CBE; color: white; }
+.books-universal-pagination ul li.inactive {background: #7E7E7E;}
+.books-universal-pagination ul li.selected {background: #E75480; color: white;}
+.books-pagination-nav {
+    margin-top: 20px;
+}
+.book_listing{
+  margin-bottom: 10px;
+}
+.book_listing td, 
+.book_listing th{
+  text-align: center;
+  border: 1px solid black;
+}
+.book_listing a {
+    text-decoration: underline;
+    color: #663399;
+}
+
+form.books_filter {
+  border: 1px solid;
+  padding: 30px;
+  background-color: #b0c4de;
+}
+
+/*Loader CSS for filter*/
+.cust_loader {
+	display: none;
+	border: 12px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 80px;
+	height: 80px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+}
+.cust_loader {
+    margin-left: 415px;
+    margin-top: 110px;
+}
+
+/*CSS for age range slider and star rating functionalities*/
+
+ul.ratingW {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-left: 0;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.counterW {margin:0 0 0 60px;}
+.ratingW {position:relative;}
+.ratingW li {display:inline-block; margin:0px;}
+.ratingW li a {display:block; position:relative; /*margin:0 3px;  width:28px; height:27px;color:#ccc; background:url('../img/ico/icoStarOff.png') no-repeat; background-size:100%;*/}
+.star {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .9em;
+  margin-right: .9em;
+  margin-bottom: 1.2em;
+  border-right: .3em solid transparent;
+  border-bottom: .7em  solid #4C4E4E;
+  border-left: .3em solid transparent;
+}
+.star:before,
+.star:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: .6em;
+  left: -1em;
+  border-right: 1em solid transparent;
+  border-bottom: .7em  solid #4C4E4E;
+  border-left: 1em solid transparent;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+.star:after {
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+.ratingW li.on .star {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .9em;
+  margin-right: .9em;
+  margin-bottom: 1.2em;
+  border-right: .3em solid transparent;
+  border-bottom: .7em  solid #FC0;
+  border-left: .3em solid transparent;
+}
+.ratingW li.on .star:before,
+.ratingW li.on .star:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: .6em;
+  left: -1em;
+  border-right: 1em solid transparent;
+  border-bottom: .7em  solid #FC0;
+  border-left: 1em solid transparent;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+.ratingW li.on .star:after {
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+.slidecontainer {
+  width: 100%;
+}
+.slider {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  cursor: pointer;
+}
+a.rating_ajax_result {
+    pointer-events: none;
+}
+p.selected_age_text {
+    display: none;
+}
+.sorting_img  {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+img.sort_desc.sorting_img {
+  display:none;
+}
