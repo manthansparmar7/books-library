@@ -1,7 +1,7 @@
-# Books Management Plugin
+# Books Library Plugin
 
 **Description:**  
-The Books Management Plugin is a WordPress plugin that allows users to manage books through a custom post type, a custom taxonomy, custom meta boxes, shortcodes, widgets, and more. This plugin helps create a structured way to manage and display books, authors, and other related information within WordPress.
+The Books Library Plugin is a WordPress plugin that allows users to manage books through a custom post type, a custom taxonomy, custom meta boxes, shortcodes, widgets, and more. This plugin helps create a structured way to manage and display books, authors, and other related information within WordPress.
 
 ## Table of Contents
 - [Purpose](#purpose)
@@ -17,7 +17,7 @@ The Books Management Plugin is a WordPress plugin that allows users to manage bo
 - [Changelog](#changelog)
 
 ## Purpose  
-The purpose of the Books Management Plugin is to provide a structured and customizable way to manage books, authors, and their associated metadata. It allows the admin to categorize books into genres, add additional details through custom meta boxes, display books on the frontend with a shortcode, and much more.
+The purpose of the Books Library Plugin is to provide a structured and customizable way to manage books, authors, and their associated metadata. It allows the admin to categorize books into genres, add additional details through custom meta boxes, display books on the frontend with a shortcode, and much more.
 
 ## Features  
 - **Custom Post Type (CPT)**: Registers a custom post type called **Books** for managing book data.
@@ -36,7 +36,7 @@ The purpose of the Books Management Plugin is to provide a structured and custom
 - **Admin Notices**: Displays a custom admin notice when a new book is published, visible to users with Editor or Administrator roles.
 
 ## Installation  
-To install the Books Management Plugin, follow these steps:
+To install the Books Library Plugin, follow these steps:
 
 1. **Download the Plugin Files**: Download the plugin from the repository.
 2. **Upload the Plugin**: Upload the plugin folder to the `/wp-content/plugins/` directory.

@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Books Library
- * Description:       This plugin provides feature to show book listing page with search and sorting functionality. This plugin will help users to search and sort books based on user's criteria.
+ * Description:       The Books Library Plugin is a WordPress plugin that allows users to manage books through a custom post type, a custom taxonomy, custom meta boxes, shortcodes, widgets, and more. This plugin helps create a structured way to manage and display books, authors, and other related information within WordPress.
  * Version:           1.0.0
  * Author:            Manthan Parmar
  * Author URI:        https://www.manthansparmar.com/
